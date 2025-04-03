@@ -15,10 +15,10 @@ function App() {
     {
       title: 'Kundengewinnung und Marketing',
       icon: Target,
-      description: 'Wir entwickeln maßgeschneiderte Marketingstrategien, die Ihr Unternehmen vom Wettbewerb abheben. Durch datengetriebene Analysen und innovative Kampagnen steigern wir Ihre Kundengewinnung nachhaltig. Unser Expertenteam unterstützt Sie bei der Entwicklung Ihrer Marke und der Erschließung neuer Märkte.'
+      description: 'Wir entwickeln massgeschneiderte Marketingstrategien, die Ihr Unternehmen vom Wettbewerb abheben. Durch datengetriebene Analysen und innovative Kampagnen steigern wir Ihre Kundengewinnung nachhaltig. Unser Expertenteam unterstützt Sie bei der Entwicklung Ihrer Marke und der Erschliessung neuer Märkte.'
     },
     {
-      title: 'Allgemeine Unternehmensberatung',
+      title: 'Digitalisierung und Optimierung von Prozessen',
       icon: Building2,
       description: 'Von der digitalen Transformation bis zur Prozessoptimierung begleiten wir Sie auf dem Weg zum zukunftsfähigen Unternehmen. Wir analysieren Ihre bestehenden Strukturen, identifizieren Optimierungspotenziale und implementieren effiziente Lösungen. Dabei setzen wir auf bewährte Methoden und innovative Technologien.'
     },
@@ -31,21 +31,21 @@ function App() {
 
   const team = [
     {
-      name: 'Dr. Sarah Weber',
-      position: 'Geschäftsführerin',
+      name: 'Jorick Mischler',
+      position: 'Verhandlungsexperte',
       description: 'Mit über 15 Jahren Erfahrung in der Strategieberatung leitet Dr. Weber unser Unternehmen und betreut wichtige Schlüsselkunden.',
       image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=500'
     },
     {
-      name: 'Marcus Schmidt',
-      position: 'Senior Berater Marketing',
-      description: 'Spezialist für digitales Marketing und Kundengewinnung mit umfangreicher Erfahrung in verschiedenen Branchen.',
+      name: 'Ruben Meier',
+      position: 'Strategieberater',
+      description: 'Ruben berät Unternehmen dabei, wegweisende Strategien zu entwickeln und nachhaltiges Wachstum zu generieren.',
       image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=500'
     },
     {
-      name: 'Julia Bauer',
-      position: 'Head of HR Solutions',
-      description: 'Expertin für moderne Personalgewinnung und -entwicklung mit Fokus auf nachhaltiger Mitarbeiterbindung.',
+      name: 'Pascal Hofmann',
+      position: 'Business Analyst',
+      description: 'Pascal treibt digitale Innovation voran und optimiert Geschäftsprozesse für mehr Effizienz und Agilität.',
       image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=500'
     }
   ];
@@ -107,12 +107,13 @@ function App() {
         <section id="home" className="min-h-screen flex items-center">
           <div className="max-w-4xl mx-auto px-4 py-12">
             <h1 className="text-4xl font-bold text-gray-900 mb-6">
-              Ihr Partner für nachhaltigen Unternehmenserfolg
+              Ihr Partner für massgeschneiderten Unternehmenserfolg
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              Seit über einem Jahrzehnt unterstützen wir Unternehmen dabei, ihr volles Potenzial zu entfalten. 
-              Mit maßgeschneiderten Beratungslösungen und einem erfahrenen Team von Experten stehen wir Ihnen zur Seite, 
-              um Ihre Ziele zu erreichen und Ihr Unternehmen zukunftsfähig zu gestalten.
+            Als junges Consulting-Unternehmen bieten wir massgeschneiderte Beratungsleistungen, die perfekt auf Ihre spezifischen Herausforderungen zugeschnitten sind.
+            Mit unserem fundierten Fachwissen und professionellen Ansatz entwickeln wir exzellente Strategien für Ihren nachhaltigen Erfolg.
+            Was uns auszeichnet ist unser engagierter, partnerschaftlicher Beratungsstil – wir arbeiten proaktiv und hands-on mit Ihnen zusammen und bleiben nahbar,
+            während wir mit Leidenschaft zielgerichtete Lösungen für Ihr Unternehmen vorantreiben.
             </p>
             <img
               src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80"
@@ -134,7 +135,7 @@ function App() {
                   </div>
                   <p className="text-gray-600">{service.description}</p>
                   <button className="mt-4 flex items-center text-blue-600 hover:text-blue-800">
-                    Mehr erfahren <ArrowRight className="ml-2 h-4 w-4" />
+                    Jetzt kontatkieren <ArrowRight className="ml-2 h-4 w-4" />
                   </button>
                 </div>
               ))}
@@ -146,10 +147,8 @@ function App() {
           <div className="max-w-4xl mx-auto px-4 py-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Über uns</h2>
             <p className="text-lg text-gray-600 mb-12">
-              Mit jahrelanger Erfahrung und einem engagierten Team von Experten stehen wir Ihnen zur Seite, 
-              um Ihr Unternehmen auf das nächste Level zu bringen. Unsere Berater vereinen fundiertes 
-              Fachwissen mit praktischer Erfahrung und einem tiefen Verständnis für die Herausforderungen 
-              moderner Unternehmen.
+            Als junges, dynamisches Beratungsunternehmen setzen wir auf frische Perspektiven und innovative Lösungsansätze.
+            Unsere Berater kombinieren aktuelle wissenschaftliche Erkenntnisse mit einem unkonventionellen Blick auf unternehmerische Herausforderungen und entwickeln massgeschneiderte Strategien für den Erfolg unserer Kunden.
             </p>
             
             <h3 className="text-2xl font-bold text-gray-900 mb-8">Unser Team</h3>
