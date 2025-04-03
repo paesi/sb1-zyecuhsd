@@ -33,7 +33,7 @@ function App() {
     {
       name: 'Jorick Mischler',
       position: 'Verhandlungsexperte',
-      description: 'Mit über 15 Jahren Erfahrung in der Strategieberatung leitet Dr. Weber unser Unternehmen und betreut wichtige Schlüsselkunden.',
+      description: 'Jorick sorgt für wirkungsvolle Verhandlungen, erfolgreichen Vertrieb und effektives Marketing, die messbare Erfolge erzielen.',
       image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=500'
     },
     {
